@@ -15,7 +15,6 @@ edit domain.txt and list the domains you want to check, one per line. For exampl
 ```bash
 example.com
 google.com
-openai.com
 github.com
 ```
 ## • run the script
