@@ -22,6 +22,7 @@ github.com
 ```bash
 python main.py
 ```
+The script will read the domains from domain.txt, perform WHOIS lookups for each domain, and save the results in a file named output.txt.
 
 ## Disclamer
 Be cautious of rate limiting, as querying WHOIS servers repeatedly may result in temporary bans.
