@@ -41,7 +41,7 @@ jobs:
           commit_messages=("Update: ⏰" "Refresh: 🔄" "Renew: 🌟" "Revise: 📝" "Amend: 🛠" "Adjust: 🔧" "Change: 📈" "Modify: 🖊" "Transform: 🌀" "Revamp: 🌈")
           random_msg=${commit_messages[$RANDOM % ${#commit_messages[@]}]}
 
-          git add timest.txt
+          git add domain.txt
           git commit -m "$random_msg - $current_time" || echo "No changes to commit."
 
       - name: GitHub Push
